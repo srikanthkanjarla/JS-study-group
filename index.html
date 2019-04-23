@@ -687,6 +687,40 @@ var compare = compareEquality(10, "10");
 
 console.log(compare);
 
+// Basic JavaScript: Comparison with the Greater Than Operator
+
+// Setup
+function testNotEqual(val) {
+  if (val != 99) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+// Change this value to test
+var test = testNotEqual(99);
+
+console.log(test);
+
+//
+
+function testGreaterThan(val) {
+  if (val > 100) {  // Change this line
+    return "Over 100";
+  }
+  
+  if (val > 10) {  // Change this line
+    return "Over 10";
+  }
+
+  return "10 or Under";
+}
+
+// Change this value to test
+var test = testGreaterThan(101);
+
+console.log(test);
+
     </script>
   </body>
 </html>
