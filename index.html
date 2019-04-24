@@ -714,13 +714,49 @@ function testGreaterThan(val) {
   }
 
   return "10 or Under";
-}
+
+//start here for the code 
+
 
 // Change this value to test
 var test = testGreaterThan(101);
 
 console.log(test);
 
+
+//
+
+function switchOfStuff(val) {
+  var answer = "";
+  // Only change code below this line
+  
+  switch (val){
+    case 'a':
+      answer = "apple";
+      break;
+
+    case 'b':
+      answer = "bird";
+      break;
+
+    case 'c':
+      answer = "cat";
+      break;
+
+    default:
+      answer = "stuff";
+      break;                
+  }
+  
+  // Only change code above this line  
+  return answer;  
+}
+
+// Change this value to test
+console.log(switchOfStuff('a'));
+
+
+// completed through switch statments with default
     </script>
   </body>
 </html>
